@@ -1,0 +1,95 @@
+/*cot styles by @wadleo and @katchoua*/
+
+body{
+    background-color: #cfd8dc; 
+    font-size: 12px;
+}
+
+nav {
+    height: 150px;
+    line-height: 64px;
+}
+
+nav ul li a:hover{
+    background-color: #3949AB;
+    color: #FFFFFF;
+}
+
+nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons {
+    height: 150px;
+    line-height: 64px;
+}
+
+nav .button-collapse i {
+    height: 150px;
+    line-height: 64px;
+}
+
+nav .brand-logo { 
+    font-size: 1.6rem; 
+}
+
+@media only screen and (max-width: 600px){
+
+    #logo{
+        font-size: 18px;
+        margin-top: 20px;
+        display: block;
+    }
+
+    #subtitle{
+        font-size: 12px;
+    }
+
+    #title-span{
+        margin-top: -20px;
+        float: left;
+    }
+}
+
+@media only screen and (min-width: 601px){
+    nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
+        height: 150px;
+        line-height: 64px;
+    }
+
+    #logo{
+        font-size: 25px;
+        margin-top: 25px;
+        display: block;
+    }
+
+    #subtitle{
+        font-size: 15px;
+    }
+
+    #title-span{
+        margin-top: -20px;
+        float: left;
+    }
+}
+
+
+@media only screen and (min-width: 993px){
+    nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
+        height: 150px;
+        line-height: 35px;
+    }
+
+    #logo{
+        font-size: 28px;
+        margin-top: 25px;
+        display: block;
+    }
+
+    #subtitle{
+        font-size: 18px;
+        /*float: left;*/
+    }
+
+    #title-span{
+        /*clear: left;*/
+        margin-top: -10px;
+        float: left;
+    }
+}
