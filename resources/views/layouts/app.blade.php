@@ -47,82 +47,82 @@
                             </li>
 
                             <li class="dropdown">
-                               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Programs <b class="caret"></b></a>
-                               <ul class="dropdown-menu">
-                                 <li><a href="">Computer Engineering</a></li>
-                                 <li class="divider"></li>
-                                 <li><a href="">Electrical Engineering</a></li>
-                                 <li class="divider"></li>
-                                 <li><a href="">HND</a></li>
-                                 <li class="divider"></li>
-                                 <li><a href="">TWCET</a></li>
-                             </ul>
-                         </li>
+                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Programs <b class="caret"></b></a>
+                             <ul class="dropdown-menu">
+                               <li><a href="">Computer Engineering</a></li>
+                               <li class="divider"></li>
+                               <li><a href="{{ route('electrical') }}">Electrical Engineering</a></li>
+                               <li class="divider"></li>
+                               <li><a href="">HND</a></li>
+                               <li class="divider"></li>
+                               <li><a href="">TWCET</a></li>
+                           </ul>
+                       </li>
 
-                         <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Admission <b class="caret"></b></a>
-                            <ul class="dropdown-menu">
-                                <li>
-                                    <a href="portfolio-1-col.html">Registration</a>
-                                </li>
-                                <li class="divider"></li>
-                                <li>
-                                    <a href="portfolio-2-col.html">Tuition Fees</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Partners <b class="caret"></b></a>
-                            <ul class="dropdown-menu">
-                                <li>
-                                    <a href="portfolio-1-col.html">1 Column Portfolio</a>
-                                </li>
-                                <li>
-                                    <a href="portfolio-2-col.html">2 Column Portfolio</a>
-                                </li>
-                                <li>
-                                    <a href="portfolio-3-col.html">3 Column Portfolio</a>
-                                </li>
-                                <li>
-                                    <a href="portfolio-4-col.html">4 Column Portfolio</a>
-                                </li>
-                                <li>
-                                    <a href="portfolio-item.html">Single Portfolio Item</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Forum <b class="caret"></b></a>
-                            <ul class="dropdown-menu">
-                                <li>
-                                    <a href="blog-home-1.html">Blog Home 1</a>
-                                </li>
-                                <li>
-                                    <a href="blog-home-2.html">Blog Home 2</a>
-                                </li>
-                                <li>
-                                    <a href="blog-post.html">Blog Post</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li >
-                          <a href="#" class="">News & Events</a>
-                      </li>
-                      <li >
-                          <a href="#" class="">Services</a>
-                      </li>
-
-                      <li >
-                          <a href="#" class="">Activities</a>
-                      </li>
-                      <li>
-                        <a href="services.html">Calender</a>
+                       <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Admission <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="portfolio-1-col.html">Registration</a>
+                            </li>
+                            <li class="divider"></li>
+                            <li>
+                                <a href="portfolio-2-col.html">Tuition Fees</a>
+                            </li>
+                        </ul>
                     </li>
-                </ul>
-            </div>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Partners <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="portfolio-1-col.html">1 Column Portfolio</a>
+                            </li>
+                            <li>
+                                <a href="portfolio-2-col.html">2 Column Portfolio</a>
+                            </li>
+                            <li>
+                                <a href="portfolio-3-col.html">3 Column Portfolio</a>
+                            </li>
+                            <li>
+                                <a href="portfolio-4-col.html">4 Column Portfolio</a>
+                            </li>
+                            <li>
+                                <a href="portfolio-item.html">Single Portfolio Item</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Forum <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="blog-home-1.html">Blog Home 1</a>
+                            </li>
+                            <li>
+                                <a href="blog-home-2.html">Blog Home 2</a>
+                            </li>
+                            <li>
+                                <a href="blog-post.html">Blog Post</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li >
+                      <a href="#" class="">News & Events</a>
+                  </li>
+                  <li >
+                      <a href="#" class="">Services</a>
+                  </li>
+
+                  <li >
+                      <a href="#" class="">Activities</a>
+                  </li>
+                  <li>
+                    <a href="services.html">Calender</a>
+                </li>
+            </ul>
         </div>
-        <!-- /.navbar-collapse -->
     </div>
+    <!-- /.navbar-collapse -->
+</div>
 </div>
 <!-- /.container -->
 </nav>
@@ -131,49 +131,49 @@
 
 <!-- Footer -->
 <footer class="footer">
-<div class="navbar-fixed-bottom">
-    <div class="row">
-        <div class="col-lg-9">
-            <p>Copyright &copy; College of Technology <br>
-            {!! $mytime = Carbon\Carbon::now()!!}</p>
-        </div>
-        <!-- Right Side Of Navbar -->
+    <div class="navbar-fixed-bottom">
+        <div class="row">
+            <div class="col-lg-9">
+                <p>Copyright &copy; College of Technology <br>
+                    {!! $mytime = Carbon\Carbon::now()!!}</p>
+                </div>
+                <!-- Right Side Of Navbar -->
 
-        <ul class="nav navbar-nav navbar-right">
-            @if (Auth::guest())
-            <li><a href="{{ url('/login') }}">Login</a></li>
-            <li><a href="{{ url('/register') }}">Register</a></li>
-            @else
-            <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-                    {{ Auth::user()->name }} <span class="caret"></span>
-                </a>
+                <ul class="nav navbar-nav navbar-right">
+                    @if (Auth::guest())
+                    <li><a href="{{ url('/login') }}">Login</a></li>
+                    <li><a href="{{ url('/register') }}">Register</a></li>
+                    @else
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                            {{ Auth::user()->name }} <span class="caret"></span>
+                        </a>
 
-                <ul class="dropdown-menu" role="menu">
-                    <li><a href="{{ url('/logout') }}"><i class="fa fa-btn fa-sign-out"></i>Logout</a></li>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="{{ url('/logout') }}"><i class="fa fa-btn fa-sign-out"></i>Logout</a></li>
+                        </ul>
+                    </li>
+                    @endif
                 </ul>
-            </li>
-            @endif
-        </ul>
 
-    </div>
-    </div>
-</footer>
+            </div>
+        </div>
+    </footer>
 
-<!-- jQuery -->
-<script src="{{URL::to('assets')}}/js/jquery.js"></script>
+    <!-- jQuery -->
+    <script src="{{URL::to('assets')}}/js/jquery.js"></script>
 
-<!-- Bootstrap Core JavaScript -->
-<script src="{{URL::to('assets')}}/js/bootstrap.min.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="{{URL::to('assets')}}/js/bootstrap.min.js"></script>
 
-<!--Application Core JavaScripts -->
-<script src="{{URL::to('assets')}}/js/app.js"></script>
+    <!--Application Core JavaScripts -->
+    <script src="{{URL::to('assets')}}/js/app.js"></script>
 
-<!-- Script to Activate the Carousel -->
-<script>
-    $('.carousel').carousel({
+    <!-- Script to Activate the Carousel -->
+    <script>
+        $('.carousel').carousel({
         interval: 5000 //changes the speed
     })
-</script>
+    </script>
 </body>
 </html>

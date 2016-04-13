@@ -28,6 +28,11 @@ Route::group(['middleware' => ['web']], function () {
 
 Route::get('/home', 'HomeController@index');
 
+Route::get('/department/electrical', [ 
+	 'uses'=> 'ProgramController@electrical',
+      'as'=>'electrical'
+	]);
+
 Route::get('/', function () {
     return view('welcome');
 });

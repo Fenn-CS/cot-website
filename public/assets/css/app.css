@@ -82,7 +82,27 @@ header.carousel .fill {
     display: block;
     font-style: italic;
 }
-
+ 
+ .programs-sidebar {
+ -moz-border-radius: 4px; 
+ -webkit-border-radius: 4px; 
+  border-radius: 4px;
+  margin-top:10px;
+  border:1px solid #ccc;
+  height:500px;
+  margin-left:20px;
+ }
+.programs-carousel {
+ -moz-border-radius: 4px; 
+ -webkit-border-radius: 4px; 
+  border-radius: 4px;
+  margin-top:10px;
+  border:1px solid #ccc;
+  height:500px;
+}
+.programs-heading {
+    margin-top:60px;
+}
 /* Footer Styles */
 
 footer {
